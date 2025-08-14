@@ -203,11 +203,6 @@ mapTileView.addTouchListener(event -> {
 });
 ```
 
-### Détection d'appui sur un marker ou guidancePoint
-
-Pour cette partie le code associé se trouve dans la classe MarkersOnTapController.
-
-
 ---
 
 ## 🚚 Navigation avancée
@@ -268,4 +263,5 @@ if (routingHelper.getRoute() != null && routingHelper.getRoute().getCurrentDirec
         }
     }
 }
+
 ```
